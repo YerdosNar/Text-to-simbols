@@ -1,5 +1,3 @@
-package MyGame;
-
 import java.util.*;
 
 public class TextToSimbols {
