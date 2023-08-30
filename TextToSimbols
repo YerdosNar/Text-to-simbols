@@ -1,0 +1,358 @@
+package MyGame;
+
+import java.util.*;
+
+public class TextToSimbols {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        char[] chars = str.toLowerCase().toCharArray();
+        for (char a:chars) {
+            switch (a) {
+                case 'a':
+                    System.out.println("--------------");
+                    System.out.println("      ####    ");
+                    System.out.println("     ####     ");
+                    System.out.println("    ### ##    ");
+                    System.out.println("   ###   ##   ");
+                    System.out.println("  ##########  ");
+                    System.out.println(" ###       ## ");
+                    System.out.println("####       ###");
+                    System.out.println("--------------");
+                    break;
+                case 'b':
+                    System.out.println("--------------");
+                    System.out.println("#########     ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println(" ########     ");
+                    System.out.println(" ###     ##   ");
+                    System.out.println(" ###     ##   ");
+                    System.out.println("##########    ");
+                    System.out.println("--------------");
+                    break;
+                case 'c':
+                    System.out.println("--------------");
+                    System.out.println("   ######     ");
+                    System.out.println(" ###     ##   ");
+                    System.out.println("###           ");
+                    System.out.println("###           ");
+                    System.out.println("###           ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println("  ########    ");
+                    System.out.println("--------------");
+                    break;
+                case 'd':
+                    System.out.println("--------------");
+                    System.out.println("########      ");
+                    System.out.println(" ###     ##   ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println(" ###       ## ");
+                    System.out.println(" ###       ## ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println("##########    ");
+                    System.out.println("--------------");
+                    break;
+                case 'e':
+                    System.out.println("--------------");
+                    System.out.println("############  ");
+                    System.out.println(" ###       #  ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ########     ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###       #  ");
+                    System.out.println("############  ");
+                    System.out.println("--------------");
+                    break;
+                case 'f':
+                    System.out.println("--------------");
+                    System.out.println("############  ");
+                    System.out.println(" ###       #  ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ########     ");
+                    System.out.println(" ###    #     ");
+                    System.out.println(" ###          ");
+                    System.out.println("#####         ");
+                    System.out.println("--------------");
+                    break;
+                case 'g':
+                    System.out.println("----------");
+                    System.out.println("  ########   ");
+                    System.out.println(" ###      #   ");
+                    System.out.println("###           ");
+                    System.out.println("###    ###### ");
+                    System.out.println("###       ##  ");
+                    System.out.println(" ###     ###  ");
+                    System.out.println("  #######  #  ");
+                    System.out.println("--------------");
+                    break;
+                case 'h':
+                    System.out.println("--------------");
+                    System.out.println("#####   ###   ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println(" #########    ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println(" ###    ##    ");
+                    System.out.println("#####   ###   ");
+                    System.out.println("--------------");
+                    break;
+                case 'i':
+                    System.out.println("--------------");
+                    System.out.println("#######       ");
+                    System.out.println("  ###         ");
+                    System.out.println("  ###         ");
+                    System.out.println("  ###         ");
+                    System.out.println("  ###         ");
+                    System.out.println("  ###         ");
+                    System.out.println("#######       ");
+                    System.out.println("--------------");
+                    break;
+                case 'j':
+                    System.out.println("--------------");
+                    System.out.println("  #######        ");
+                    System.out.println("    ###         ");
+                    System.out.println("    ###         ");
+                    System.out.println("    ###         ");
+                    System.out.println("    ###         ");
+                    System.out.println("#   ###         ");
+                    System.out.println(" #####          ");
+                    System.out.println("--------------");
+                    break;
+                case 'k':
+                    System.out.println("--------------");
+                    System.out.println("#####   ##    ");
+                    System.out.println(" ###   #      ");
+                    System.out.println(" ###  #       ");
+                    System.out.println(" ### #        ");
+                    System.out.println(" #### ##      ");
+                    System.out.println(" ###   ##     ");
+                    System.out.println("####    ###   ");
+                    System.out.println("--------------");
+                    break;
+                case 'l':
+                    System.out.println("--------------");
+                    System.out.println("#####         ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println("############  ");
+                    System.out.println("--------------");
+                    break;
+                case 'm':
+                    System.out.println("--------------");
+                    System.out.println("###   ###     ");
+                    System.out.println("####  ####    ");
+                    System.out.println("### # ### #   ");
+                    System.out.println("###  ####  #  ");
+                    System.out.println("###   ###   # ");
+                    System.out.println("###          #");
+                    System.out.println("###          #");
+                    System.out.println("--------------");
+                    break;
+                case 'n':
+                    System.out.println("--------------");
+                    System.out.println(" ####    #####");
+                    System.out.println(" #####    ### ");
+                    System.out.println(" ### ##   ### ");
+                    System.out.println(" ###  ##  ### ");
+                    System.out.println(" ###   ## ### ");
+                    System.out.println(" ###    ##### ");
+                    System.out.println("#####    #### ");
+                    System.out.println("--------------");
+                    break;
+                case 'o':
+                    System.out.println("--------------");
+                    System.out.println("   #######    ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println("###        ## ");
+                    System.out.println("###        ## ");
+                    System.out.println("###        ## ");
+                    System.out.println(" ###      ##  ");
+                    System.out.println("  ########    ");
+                    System.out.println("--------------");
+                    break;
+                case 'p':
+                    System.out.println("--------------");
+                    System.out.println("######        ");
+                    System.out.println("###   ##      ");
+                    System.out.println("###    ##     ");
+                    System.out.println("#######       ");
+                    System.out.println("###           ");
+                    System.out.println("###           ");
+                    System.out.println("###           ");
+                    System.out.println("--------------");
+                    break;
+                case 'q':
+                    System.out.println("--------------");
+                    System.out.println("   ######     ");
+                    System.out.println(" ###      #   ");
+                    System.out.println("###        #  ");
+                    System.out.println("###        #  ");
+                    System.out.println("###        #  ");
+                    System.out.println(" ###     ##   ");
+                    System.out.println(" ####### ###  ");
+                    System.out.println("--------------");
+                    break;
+                case 'r':
+                    System.out.println("--------------");
+                    System.out.println("######        ");
+                    System.out.println("###   ##      ");
+                    System.out.println("###   ##      ");
+                    System.out.println("#####         ");
+                    System.out.println("###  ##       ");
+                    System.out.println("###   ##      ");
+                    System.out.println("###    ###    ");
+                    System.out.println("--------------");
+                    break;
+                case 's':
+                    System.out.println("--------------");
+                    System.out.println("  ########    ");
+                    System.out.println("###      ##   ");
+                    System.out.println("###           ");
+                    System.out.println(" ########     ");
+                    System.out.println("        ###   ");
+                    System.out.println("##       ###  ");
+                    System.out.println(" ##########   ");
+                    System.out.println("--------------");
+                    break;
+                case 't':
+                    System.out.println("--------------");
+                    System.out.println("############# ");
+                    System.out.println("#    ###    # ");
+                    System.out.println("     ###      ");
+                    System.out.println("     ###      ");
+                    System.out.println("     ###      ");
+                    System.out.println("     ###      ");
+                    System.out.println("    #####     ");
+                    System.out.println("--------------");
+                    break;
+                case 'u':
+                    System.out.println("--------------");
+                    System.out.println("###       ##   ");
+                    System.out.println("###       ##   ");
+                    System.out.println("###       ##   ");
+                    System.out.println("###       ##   ");
+                    System.out.println("###       ##   ");
+                    System.out.println(" ###     ##    ");
+                    System.out.println("   ######     ");
+                    System.out.println("--------------");
+                    break;
+                case 'v':
+                    System.out.println("--------------");
+                    System.out.println("####    ####  ");
+                    System.out.println("###     ##    ");
+                    System.out.println("###    ##     ");
+                    System.out.println("###   ##      ");
+                    System.out.println("###  ##       ");
+                    System.out.println("### ##        ");
+                    System.out.println("#######       ");
+                    System.out.println("--------------");
+                    break;
+                case 'w':
+                    System.out.println("--------------");
+                    System.out.println("####       ###");
+                    System.out.println("###    #    ##");
+                    System.out.println("###   ##    ##");
+                    System.out.println("###  ###   ## ");
+                    System.out.println("### ##### ##  ");
+                    System.out.println("##### #####   ");
+                    System.out.println("####  ######  ");
+                    System.out.println("--------------");
+                    break;
+                case 'x':
+                    System.out.println("--------------");
+                    System.out.println(" ####    #####");
+                    System.out.println("   ##    ###  ");
+                    System.out.println("    ##  ###   ");
+                    System.out.println("     ###      ");
+                    System.out.println("    ### ##    ");
+                    System.out.println("  ###    ##   ");
+                    System.out.println("####     #### ");
+                    System.out.println("--------------");
+                    break;
+                case 'y':
+                    System.out.println("--------------");
+                    System.out.println("###   ####    ");
+                    System.out.println(" ##   ###     ");
+                    System.out.println("  ## ###      ");
+                    System.out.println("   ####       ");
+                    System.out.println("   ###        ");
+                    System.out.println("  ###         ");
+                    System.out.println("#####         ");
+                    System.out.println("--------------");
+                    break;
+                case 'z':
+                    System.out.println("--------------");
+                    System.out.println("############  ");
+                    System.out.println("#       ###   ");
+                    System.out.println("      ###     ");
+                    System.out.println("    ###       ");
+                    System.out.println("   ###        ");
+                    System.out.println(" ###       ## ");
+                    System.out.println("############# ");
+                    System.out.println("--------------");
+                    break;
+                case ' ':
+                    System.out.println("--------------");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("--------------");
+                    break;
+                case '!':
+                    System.out.println("--------------");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println("              ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println("--------------");
+                    break;
+                case '.':
+                    System.out.println("--------------");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println("--------------");
+                    break;
+                case ',':
+                    System.out.println("--------------");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println(" ###          ");
+                    System.out.println(" ###          ");
+                    System.out.println("  #           ");
+                    System.out.println("--------------");
+                    break;
+                case '-':
+                    System.out.println("--------------");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("  ##########  ");
+                    System.out.println("  ##########  ");
+                    System.out.println("              ");
+                    System.out.println("              ");
+                    System.out.println("--------------");
+                default:
+                    System.err.println("Letters only!");
+                    break;
+            }
+        }
+    }
+}
